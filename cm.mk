@@ -3,19 +3,19 @@
 $(call inherit-product, device/oppo/find7a/full_find7a.mk)
 
 # Inherit some common MK stuff
-$(call inherit-product, vendor/mk/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
 
 # Inherit some common Gummy stuff.
-$(call inherit-product, vendor/mk/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-PRODUCT_NAME := mk_find7a
+PRODUCT_NAME := cm_find7a
 PRODUCT_DEVICE := find7a
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 

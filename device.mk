@@ -281,7 +281,7 @@ PRODUCT_PACKAGES += wcnss_service
 
 # System properties
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.sys.strictmode.disable=true \
+    persist.sys.strictmode.disable=true \
     persist.hwc.mdpcomp.enable=true \
     debug.composition.type=dyn \
     persist.timed.enable=true \
@@ -305,7 +305,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qc.sdk.sensors.gestures=true \
     ro.qualcomm.cabl=0 \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=15 \
+    persist.sys.language=zh \  
+    persist.sys.country=CN \
+    persist.sys.timezone=Shanghai
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
