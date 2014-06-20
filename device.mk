@@ -306,7 +306,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0 \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=15 \
-    persist.sys.language=zh \  
+    persist.sys.language=zh \
     persist.sys.country=CN \
     persist.sys.timezone=Shanghai
 
